@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: lightseagreen;
+}
+header{
+    background-image: url("assets/tech_it_easy.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+}
+
+.container{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2{
+    color: indigo;
+}
+#sold{
+    color: green;
+    background-color: transparent;
+    text-align: center;
+}
+#purchase{
+    color: blue;
+    background-color: transparent;
+    text-align: center;
+}
+#available{
+    color: red;
+    background-color: transparent;
+    text-align: center;
+}
+.div-container{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+
+}
+#tv-list{
+    color: aliceblue;
+    padding: 20px 20px;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+article{
+    color: aliceblue;
+    background-color: black;
+    margin: 40px 100px;
+    padding: 20px 10px;
+    border-radius: 40px;
+    border-style: solid;
+}
+article h3{
+    background-color: black;
+}
+article h4{
+    background-color: black;
+}
+article p{
+    background-color: black;
+}
+.tv-container{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    margin: 40px 100px;
+    list-style: none;
+    gap: 20px;
+    padding: 20px 0;
+}
+.tv-container li{
+    border: solid aliceblue;
+    border-radius: 40px;
+    background-color: black;
+    padding: 20px;
+}
+ul h3{
+    background-color: transparent;
+}
+ul h4{
+    background-color: transparent;
+}
+ul p{
+    background-color: transparent;
+}
+.button-container{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    margin-right: 100px;
+}
+button{
+    background-color: lightblue;
+    border-style: solid;
+    cursor: pointer;
+    border-color: blue;
+    border-radius: 50px;
+    padding: 10px 20px;
+
+}
